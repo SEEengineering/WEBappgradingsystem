@@ -36,13 +36,7 @@ Reactjs JWT Authentication would be built with 5 main kind blocks:
 - Local Storage allow to save key/value pairs in a web browser. It is a place to save the login user’s info.
 - Axios – (an Ajax Engine) is a promise-based HTTP client for the browser and Node. js. Axios makes it easy to send asynchronous HTTP requests to REST endpoints and perform CRUD operations.
 
-## Jwt SpringBoot Token Security RestAPIs Diagram Overview
-This is diagram for Spring Security/JWT (Springboot Token Based Authentication Example) classes that are separated into 3 layers:
-– HTTP
-– Spring Security
-– REST API
-
-Look at the diagram above, we can easily associate these components with Spring Security Authentication process: receive HTTP request, filter, authenticate, store Authentication data, generate token, get User details, authorize, handle exception…
+## Jwt SpringBoot Token Security RestAPIs Overview
 
 At a glance:
 – SecurityContextHolder provides access to the SecurityContext.
