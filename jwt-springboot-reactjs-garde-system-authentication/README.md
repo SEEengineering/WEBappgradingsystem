@@ -1,9 +1,5 @@
 # Jwt Springboot Reactjs Token Authentication Example - React.js Spring Security Login
 
-Tutorial Link: https://loizenai.com/reactjs-springboot-jwt-token-authentication/
-
-![Jwt-springboot-reactjs-token-authentication-example](https://loizenai.com/wp-content/uploads/2020/11/Reactjs-SpringBoot-Jwt-Token-Authentication-Example.png)
-
 JSON Web Token (JWT) is an open standard (RFC 7519) that defines a compact and self-contained way for securely transmitting information between parties as a JSON object. And “How to build Reactjs Jwt SpringBoot Token Based Authentication Example?” is one of the most common questions for SpringBoot Java development world. So in the tutorial, I introduce how to implement an application “Reactjs JWT SpringBoot token Authentication Example” with details step by step and 100% running sourcecode.
 
 – I give you an Epic of the application, a fullstack excutive flow from frontend to backend with overall architecture diagram.
@@ -12,10 +8,6 @@ JSON Web Token (JWT) is an open standard (RFC 7519) that defines a compact and s
 – I guide you step by step how to develop a Reactjs JWT Authentication application.
 – Finally, I do an integrative testing from Reactjs JWT Authentication application to jwt SpringBoot Security RestAPIs.
 
-## Overall System Architecture Diagram
-
-![Overall System Architecture Diagram](https://loizenai.com/wp-content/uploads/2020/11/Reactjs-JWT-Authentication-Overall-Diagram-1.png)
-
 For the Reactjs JWT Authentication tutorial, we have 2 projects:
 – Backend project (using SpringBoot or Nodejs Express) provides secured RestAPIs with JWT token.
 – Reactjs project will request RestAPIs from Backend system with the JWT Token Authentication implementation.
@@ -23,8 +15,6 @@ For the Reactjs JWT Authentication tutorial, we have 2 projects:
 ## JWT Authentication Sequence Diagram
 
 The diagram below show how our system handles User Registration and User Login processes:
-
-![JWT Authentication Sequence Diagram](https://loizenai.com/wp-content/uploads/2020/11/Reactjs-Jwt-Authentication-Working-Process-Diagram-1.png)
 
 1. User Registration Phase:
 – User uses a React.js register form to post user’s info (name, username, email, role, password) to Backend API /api/auth/signup.
@@ -52,8 +42,6 @@ This is diagram for Spring Security/JWT (Springboot Token Based Authentication E
 – Spring Security
 – REST API
 
-![Jwt SpringBoot Token Security RestAPIs Diagram Overview](https://loizenai.com/wp-content/uploads/2020/11/Spring-Security-Jwt-Token-Authentication-Architecture-Diagram-1.png)
-
 Look at the diagram above, we can easily associate these components with Spring Security Authentication process: receive HTTP request, filter, authenticate, store Authentication data, generate token, get User details, authorize, handle exception…
 
 At a glance:
@@ -70,44 +58,3 @@ At a glance:
 – AuthenticationEntryPoint handles AuthenticationException.
 – Access to Restful API is protected by HTTPSecurity and authorized with Method Security Expressions.
 
-## Project Goal
-
-We create a Reactjs JWT Authentication project as below:
-
-[Reactjs Project structure](https://loizenai.com/wp-content/uploads/2020/11/Reactjs-Jwt-Authentication-project-structure-1.png)
-
-It includes 8 components and 2 services and a router in app.js file.
-
-– Home page:
-
-![Home Page](https://loizenai.com/wp-content/uploads/2020/11/Reactjs-Home-Page-3.png)
-
-– User Register page:
-
-![User Register page](https://loizenai.com/wp-content/uploads/2020/11/Reactjs-JWT-Authentication-Register-Form-Validation-1.png)
-
-– Login Page:
-
-![Login Page](https://loizenai.com/wp-content/uploads/2020/11/reactjs-jwt-authentication-wrong-login-user-validation-3.png)
-
-– Profile Page:
-
-![Profile Page](https://loizenai.com/wp-content/uploads/2020/11/Reactjs-jwt-authentication-sign-in-successfully-2.png)
-
-– Use Page:
-
-[User page](https://loizenai.com/wp-content/uploads/2020/11/Reactjs-jwt-authentication-User-Page-Content-3.png)
-
-– Project Manager Page:
-
-![Project Manager Page](https://loizenai.com/wp-content/uploads/2020/11/Reactjs-JWT-Authentication-PM-Content-2.png)
-
-– Reactjs Admin page:
-
-![Reactjs Admin page](https://loizenai.com/wp-content/uploads/2020/11/Reactjs-jwt-authentication-admin-page-3.png)
-
-## Realated post
-
-[Angular 10 + Spring Boot JWT Token Based Authentication Example – Spring Security + MySQL](https://loizenai.com/angular-10-spring-boot-jwt-token-based-authentication-example-spring-security-mysql-database/)
-[Angular 10 + Nodejs JWT Token Based Authentication with MySQL Example – Express RestAPIs + JWT + BCryptjs + Sequelize](https://loizenai.com/angular-10-nodejs-jwt-authentication-mysql-examples-tutorials/)
-[SpringBoot Token Based Authentication Example – MySQL + JWT+ Spring JPA + RestAPIs](https://loizenai.com/spring-boot-security-jwt-token-bsed-authentication-example-mysql-spring-jpa-restapis/)
