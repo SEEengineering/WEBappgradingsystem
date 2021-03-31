@@ -26,7 +26,7 @@ The diagram below show how our system handles User Registration and User Login p
 
 After signin, user can request secured resources from backend server by adding the JWT token in Authorization Header. For each request, backend will check the JWT signature and then returns back the resources based on user’s registered authorities.
 
-## Reactjs JWT Authentication Diagram Overview
+## Reactjs JWT Authentication Overview
 
 Reactjs JWT Authentication would be built with 5 main kind blocks:
 
